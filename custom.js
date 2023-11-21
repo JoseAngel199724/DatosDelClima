@@ -41,7 +41,7 @@ async function imgflags(nameCountry){
    const response= await fetch(`https://restcountries.com/v3.1/name/${nameCountry}`)
    const data = await response.json()
    //console.log(data)
-   if (data.cod === '404') {
+   if (data === '404') {
     showError('Bandera no encontrada...');
 } else {
     resultt.innerHTML = '';
