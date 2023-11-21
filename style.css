@@ -1,0 +1,40 @@
+.weather-content {
+    max-width: 450px;
+    text-align: center;
+    padding: 20px 20px 50px;
+    margin: 10% auto 0;
+    background-color: #BFBFBF;
+    border-radius: 9px;
+}
+form input[type="text"], form input[type="submit"], form select{
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid #afddd8;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #4C5958;
+    font-size: 18px;
+}
+.weather-content h1{
+    font-size: 27px;
+    margin-bottom: 25px;
+    color: #10403B;
+}
+.resultt{
+    margin-bottom: 20px;
+}
+.resultt img{
+   width: 40%;
+}
+.result p{
+    font-size: 12px;
+}
+.result h2{
+    font-size: 40px;
+}
